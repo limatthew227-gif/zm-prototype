@@ -1,0 +1,1789 @@
+[
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "aoMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap2",
+      "glossMapDetail2",
+      "normalMap",
+      "glossMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3"
+    },
+    "Name": "lit_micro_tile_blend_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap2",
+      "normalMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3"
+    },
+    "Name": "lit_micro_tile_blend"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "aoMap",
+      "thermalHeatmap",
+      "specularMaskDetail2",
+      "detailMap1",
+      "detailMap2",
+      "glossMapDetail2",
+      "normalMap",
+      "glossMap",
+      "colorMapDetail2",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Vector3",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3",
+      "specColorTint1": "Vector4"
+    },
+    "Name": "lit_micro_tile_blend_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4"
+    },
+    "Name": "lit_decal_diffuse"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector4"
+    },
+    "Name": "lit_decal_diffuse_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector4",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_diffuse_spec_gloss_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_diffuse_spec_gloss"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_metallic_fullspec"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_reveal_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_decal_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "flowMap",
+      "rColorRamp",
+      "normalMap",
+      "noiseMap",
+      "foamBase",
+      "decalMap"
+    ],
+    "Constants": {
+      "shadowParams": "Vector4",
+      "normalMapScale": "Vector2",
+      "flowParams": "Vector4",
+      "noiseParams": "Vector4",
+      "useOrientedNormalMap": "Vector4",
+      "specularLobeRoughnessControl": "Vector4",
+      "lobeWeightingThicknessRefraction": "Vector4",
+      "normalAdjustAndGloss": "Vector4",
+      "decalTint": "Vector4",
+      "opacityScale": "Vector4",
+      "normalsFlowScaleMin": "Vector4",
+      "ssrParams": "Vector4",
+      "foamColor": "Vector4",
+      "foamSpacing": "Vector2",
+      "foamColorScale": "Float",
+      "foamZFeather": "Float",
+      "useFoam": "Float",
+      "useSSR": "Float",
+      "useLoopedSSR": "Vector2",
+      "scaleNormalsWithFlow": "Float",
+      "doubleSidedLighting": "Vector2"
+    },
+    "Name": "lit_water_sim_flow_normal_color"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Vector4",
+      "revealScale": "Vector2",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "flickerLookupMap",
+      "normalMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "rowCount": "Float",
+      "columnCount": "Float",
+      "imageTime": "Float",
+      "rotateUVs": "Vector3",
+      "scrollUVs": "Vector2",
+      "scaleUVs": "Vector2",
+      "offsetUVs": "Vector2",
+      "zoomUVs": "Vector2",
+      "zoomRate": "Float",
+      "layerDepth": "Float",
+      "clampU": "Float",
+      "clampV": "Float",
+      "flickerSeed": "Vector2",
+      "flickerSpeed": "Vector2",
+      "flickerRange": "Vector2",
+      "flickerPower": "Vector2",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Vector3",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "uvMotionToggle1": "Vector3",
+      "zFeatherComputeSprites": "Float"
+    },
+    "Name": "lit_emissive_scroll_transparent"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "shadowcaster"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_micro_tiled_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Vector4"
+    },
+    "Name": "lit_decal_diffuse_normal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_micro_tiled"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_nocull"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thicknessMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "backlightScatterColor": "Vector4"
+    },
+    "Name": "lit_backlit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_nocull"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "breakUpMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Vector2",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Float",
+      "breakUpMapTile": "Vector2",
+      "weatherThreshold": "Float",
+      "weatherHarshness": "Vector3"
+    },
+    "Name": "lit_micro_tile_grime_mix_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thicknessMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "backlightScatterColor": "Vector4"
+    },
+    "Name": "lit_transparent_backlit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_nocull_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_micro_tiled_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "BaseColorMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Float",
+      "baseGloss": "Float",
+      "colorTint1": "Vector4"
+    },
+    "Name": "lit_micro_tiled_macro_color"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "breakUpMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Vector2",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Float",
+      "breakUpMapTile": "Vector2",
+      "weatherThreshold": "Float",
+      "weatherHarshness": "Vector3"
+    },
+    "Name": "lit_micro_tile_grime_mix"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "tintAmount": "Vector4",
+      "zFeatherComputeSprites": "Float"
+    },
+    "Name": "glass_nocolor"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "specColorMapThick"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "treeCanopyScatterColor": "Vector3",
+      "backsideGlossScale": "Float"
+    },
+    "Name": "vegetation"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "specColorMapThick"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "treeCanopyScatterColor": "Vector3",
+      "backsideGlossScale": "Float"
+    },
+    "Name": "fxanim_vegetation"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap2",
+      "normalMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3"
+    },
+    "Name": "fxanim_micro_tile_blend"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "fxanim_decal_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "fxanim_decal_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "fxanim_lit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "flagRippleDetailMap",
+      "normalMap",
+      "colorMap00",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "colorDetailScale": "Vector4",
+      "flagParams": "Vector4",
+      "detailScale": "Vector4",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2",
+      "flagScrollParms": "Vector4",
+      "flagRippleScale": "Float",
+      "flagRippleHeight": "Vector4"
+    },
+    "Name": "lit_flag"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "zFeatherComputeSprites": "Vector2"
+    },
+    "Name": "glass"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_advanced_fullspec"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap2",
+      "normalMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3"
+    },
+    "Name": "lit_micro_tile_blend_multi"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_advanced_fullspec"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "normalMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Float",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "layerDepth": "Vector2"
+    },
+    "Name": "lit_emissive"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "normalMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Float",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "layerDepth": "Vector2",
+      "zFeatherComputeSprites": "Float"
+    },
+    "Name": "lit_emissive_transparent"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "velveteenMask",
+      "colorMap",
+      "detailMap",
+      "tintBlendMask"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Float",
+      "waterRefractionAmount": "Float",
+      "tintScale": "Vector3"
+    },
+    "Name": "cloth"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_offsets"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thicknessMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "backlightScatterColor": "Vector4"
+    },
+    "Name": "lit_backlit_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thicknessMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "backlightScatterColor": "Vector4"
+    },
+    "Name": "lit_backlit_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_advanced_fullspec"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "normalMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Float",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "layerDepth": "Vector4",
+      "tint1": "Vector4",
+      "tint2": "Vector4",
+      "tint3": "Vector4"
+    },
+    "Name": "lit_emissive_script"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "anisotropy": "Vector2"
+    },
+    "Name": "lit_anisotropic"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_decal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "alphaMaskMap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "baseNormalHeight": "Vector4"
+    },
+    "Name": "lit_decal_normal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_nocull_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_advanced_fullspec"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4",
+      "backscatterTint": "Vector4",
+      "zFeatherComputeSprites": "Float"
+    },
+    "Name": "glass_backlit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "treadHeightMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_vehicle_tread"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "aoMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap3",
+      "detailMap2",
+      "normalMap",
+      "colorMapDetail2",
+      "colorMapDetail3",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "detailScale3": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Float",
+      "detailScaleHeight3": "Vector2",
+      "colorTint2": "Vector4",
+      "glossRange3": "Vector2",
+      "rotateUVs3": "Float",
+      "useUVOffsets3": "Float"
+    },
+    "Name": "lit_micro_tile_triple_mix"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_alphatest_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "revealMap",
+      "normalMap",
+      "glossMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector3",
+      "glossRange": "Vector3",
+      "colorTint": "Vector3",
+      "scaleReveal": "Float",
+      "normalTiling": "Vector4",
+      "normalScrolling": "Vector4",
+      "normalHeights": "Vector4"
+    },
+    "Name": "lit_decal_normal_gloss_reveal"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_reveal_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector4",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_decal_diffuse_spec_gloss_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent_nocull_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "aoMap",
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "tintMask2",
+      "detailMap1",
+      "detailMap2",
+      "glossMapDetail2",
+      "normalMap",
+      "glossMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Vector3",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Float",
+      "revealTiling": "Vector2"
+    },
+    "Name": "lit_decal_micro_tile_mix_reveal_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "tintMask",
+      "revealMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "alphaRevealSoftEdge": "Float",
+      "alphaRevealRamp": "Float",
+      "revealScale": "Vector2",
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2"
+    },
+    "Name": "lit_detail_decal_reveal_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thicknessMap",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Vector2",
+      "backlightScatterColor": "Vector4"
+    },
+    "Name": "lit_detail_backlit"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "tintMask",
+      "thermalHeatmap",
+      "normalMap",
+      "colorMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_transparent_nocull"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "camoMaskMap",
+      "detailNormal2",
+      "detailNormal3",
+      "detailNormal1",
+      "detailNormal4",
+      "colorMap",
+      "detailNormalMask",
+      "specColorMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "detailScale3": "Vector4",
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Float",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "detailScaleHeight3": "Vector3"
+    },
+    "Name": "lit_weapon"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "specColorMap"
+    ],
+    "Constants": {
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector4"
+    },
+    "Name": "lit_paintshop"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "flickerLookupMap",
+      "normalMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "rowCount": "Float",
+      "columnCount": "Float",
+      "imageTime": "Float",
+      "rotateUVs": "Vector3",
+      "scrollUVs": "Vector2",
+      "scaleUVs": "Vector2",
+      "offsetUVs": "Vector2",
+      "zoomUVs": "Vector2",
+      "zoomRate": "Float",
+      "layerDepth": "Float",
+      "clampU": "Float",
+      "clampV": "Float",
+      "flickerSeed": "Vector2",
+      "flickerSpeed": "Vector2",
+      "flickerRange": "Vector2",
+      "flickerPower": "Vector2",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Vector3",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "uvMotionToggle1": "Vector3"
+    },
+    "Name": "lit_emissive_scroll"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "aoMap",
+      "glossBodyMap",
+      "emissiveMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "camoMaskMap",
+      "colorMap",
+      "normalBodyMap",
+      "specularMask"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "specColorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "hdrScale": "Float",
+      "emissiveFalloffPower": "Float",
+      "emissiveTint1": "Vector3",
+      "relativeHDR": "Float",
+      "invertFalloff": "Float",
+      "layerDepth": "Vector2"
+    },
+    "Name": "lit_emissive_advanced"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "BaseColorMap",
+      "aoMap",
+      "thermalHeatmap",
+      "normalMap",
+      "glossMap",
+      "colorMap",
+      "detailMap"
+    ],
+    "Constants": {
+      "detailScale": "Vector4",
+      "colorTint": "Vector3",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "detailScaleHeight": "Float",
+      "baseGloss": "Float",
+      "colorTint1": "Vector4"
+    },
+    "Name": "lit_micro_tiled_macro_color_plus"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "thermalHeatmap",
+      "flickerLookupMap",
+      "normalMap",
+      "colorMap",
+      "emissiveMap2",
+      "emissiveMap1"
+    ],
+    "Constants": {
+      "colorTint": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector2",
+      "rowCount": "Float",
+      "columnCount": "Float",
+      "imageTime": "Float",
+      "rotateUVs": "Vector3",
+      "scrollUVs": "Vector2",
+      "scaleUVs": "Vector2",
+      "offsetUVs": "Vector2",
+      "zoomUVs": "Vector2",
+      "zoomRate": "Float",
+      "layerDepth": "Float",
+      "clampU": "Float",
+      "clampV": "Float",
+      "flickerSeed": "Vector2",
+      "flickerSpeed": "Vector2",
+      "flickerRange": "Vector2",
+      "flickerPower": "Vector2",
+      "emissiveTint1": "Vector3",
+      "hdrScale": "Float",
+      "uvMotionToggle1": "Float",
+      "relativeHDR": "Vector3",
+      "emissiveTint2": "Vector3",
+      "rowCount2": "Float",
+      "columnCount2": "Float",
+      "imageTime2": "Float",
+      "rotateUVs2": "Vector2",
+      "scrollUVs2": "Vector2",
+      "scaleUVs2": "Vector2",
+      "offsetUVs2": "Vector2",
+      "zoomUVs2": "Vector2",
+      "zoomRate2": "Float",
+      "layer2Depth": "Float",
+      "uvMotionToggle2": "Float",
+      "clampU2": "Float",
+      "clampV2": "Float",
+      "flickerSeed2": "Vector2",
+      "flickerSpeed2": "Float",
+      "flickerRange2": "Vector2",
+      "flickerPower2": "Vector2"
+    },
+    "Name": "lit_emissive_scroll_2layer_script"
+  },
+  {
+    "Blending": 0,
+    "Textures": [
+      "mixMap",
+      "thicknessMap",
+      "thermalHeatmap",
+      "detailMap1",
+      "detailMap2",
+      "normalMap",
+      "colorMapDetail2",
+      "colorMap"
+    ],
+    "Constants": {
+      "detailScale1": "Vector4",
+      "detailScale2": "Vector4",
+      "baseNormalHeight": "Float",
+      "glossRange": "Vector3",
+      "backlightScatterColor": "Vector4",
+      "mixScale": "Vector2",
+      "detailScaleHeight1": "Float",
+      "detailScaleHeight2": "Float",
+      "colorTint": "Vector4",
+      "colorTint1": "Vector4",
+      "glossRange2": "Vector2",
+      "rotateUVs1": "Float",
+      "rotateUVs2": "Float",
+      "useUVOffsets1": "Float",
+      "useUVOffsets2": "Vector3"
+    },
+    "Name": "lit_backlit_micro_tile_blend"
+  }
+]
